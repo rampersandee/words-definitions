@@ -1,0 +1,72 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+}
+img{
+  width: 30%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.page-header {
+  width: 100%;
+  background-color: bisque;
+}
+
+body > div > div.col-sm-6{
+  display: flex;
+    width: 100%;
+}
+
+.first-box{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.second-box{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.login-box{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+body > div > div.col-sm-6 > div.second-box > form{
+  display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-selection{
+  width: 32%;
+  margin: 2px;
+  display: flex;
+}
+
+#definition-box{
+  margin-top: 24px;
+  margin-bottom: 12px;
+  width: 90%;
+  text-align: center;
+}
+
+.white {
+  color: white;
+}
+
+#logout-box{
+  margin-top: 12px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
